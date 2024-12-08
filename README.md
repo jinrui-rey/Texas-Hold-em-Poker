@@ -4,7 +4,7 @@
    This is a Java-based Texas Hold'em Poker Game where you play against the computer. The game features a button to monitor your winning probability (the "Cheater" button), and after each round, the player's and computer's remaining chips are stored in an SQLite database for potential future analysis or work.
 
    
-3. **Features**:
+2. **Features**:
    
      - Play as the player and compete against the computer.
      - **Cheater Button**: Displays the current winning probability.
@@ -17,20 +17,20 @@
   * **java.awt**: For additional GUI components.
   * **java.sql**: For SQLite database operations.
     
-6. **Clone**:
+4. **Clone**:
    ```
    git clone https://github.com/jinrui-rey/texas-holdem-poker.git
    cd texas-holdem-poker
    ```
    
-8. **Usage**:
+5. **Usage**:
    * **Deal Button:** the dealer shuffles and distributes two private cards to each player to start the game.
    * **Call Button:** a player matches the current bet to stay in the hand.
    * **Check Button:** a player passes the action without betting, provided no one has bet yet in the round.
    * **Raise Button:**  a player discards their hand and forfeits any chance of winning the pot.
    * **Fold Button:** a player increases the current bet, forcing others to call or fold.
    * **cheater Button** open a window to monitor the winning proability
-9. **Database**: The database have three columns **playRound**, **playerLeftChip** and **computerLeftChip**, and the **playRound** is the prime key.
+6. **Database**: The database have three columns **playRound**, **playerLeftChip** and **computerLeftChip**, and the **playRound** is the prime key.
 
 ## Execute Without an IDE:
 
